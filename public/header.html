@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/header.css">
+    <script src="JS/jquery.min.js"></script>
+    <script src="JS/popper.min.js"></script>
+    <script src="JS/bootstrap.min.js"></script>
+    <title>Document</title>
+    <style>
+        #header{
+            position: relative;
+        }
+        .mb1{
+            background:url(img/mb1.png);
+            float:left;
+            height:288px;
+            width:100%;
+        }
+        a.tlogo{
+            display: block;
+            background: url(img/tlogo.png) no-repeat left 0;
+            width: 384px;
+            height: 246px;
+            cursor: pointer;
+            z-index: 5;
+            text-indent: -2000em;
+            margin: 5px auto;
+        }
+        .mb2{
+            overflow: hidden;
+            position:absolute;
+            top:30px;
+            right:2%;
+        }
+        .mb3{
+            display: block;
+            width: 1480px;
+            height: 80px;
+            clear: both;
+            overflow: hidden;
+            zoom: 1;
+            margin:0 auto;
+            padding-left: 100px;
+        }
+        .mb3 ul{
+            list-style: none;
+        }
+        .mb3 ul li{
+            float: left;
+            padding:0 8px 0 7px;
+            background: url(img/top_menu.png) no-repeat 0 0;
+        }
+        .mb3 ul li a{
+            width: 185px;
+            height: 80px;
+            float: left;
+            display: block;
+            overflow: hidden;
+            position: relative;
+        }
+        .mb3 ul li:nth-child(1){
+            background-position: 0px 0px;
+        }
+        .mb3 ul li:nth-child(2){
+            background-position: -200px 0px;
+        }
+        .mb3 ul li:nth-child(3){
+            background-position: -400px 0px;
+        }
+        .mb3 ul li:nth-child(4){
+            background-position: -600px 0px;
+        }
+        .mb3 ul li:nth-child(5){
+            background-position: -800px 0px;
+        }
+        .mb3 ul li:nth-child(6){
+            background-position: -1000px 0px;
+        }
+    </style>
+</head>
+    <div id="header" class="container-fluid">
+        <div class="mb1">
+             <a href="#" class="tlogo"></a>
+        </div>
+        <div class="mb2"> 
+            <ul class="login list-unstyled">
+                <li class="float-left m-1"><a href="#" class="my_txt"><img src="img/shop_car1.png" class="mb-1 mr-1">购物车</a></li>
+                <li class="active float-left m-1"><a href="#" class="my_txt">登录</a></li>
+                <li class="float-left m-1"><a href="#" class="my_txt">注册</a></li>
+                <li class="dropdown float-left m-1">
+                    <a href="#" class="dropdown-toggle my_txt">更多</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">服务</a></li>
+                        <li><a href="#">品种</a></li>
+                        <li><a href="#">待售</a></li>
+                        <li><a href="#">秀秀</a></li>
+                        <li><a href="#">商城</a></li>
+                        <li><a href="#">留言</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="mb3">
+            <ul>
+                <li>
+                    <a href="#"></a>
+                </li>
+                <li>
+                    <a href="#"></a>
+                </li>
+                <li>
+                    <a href="#"></a>
+                </li>
+                <li>
+                    <a href="#"></a>
+                </li>
+                <li>
+                    <a href="#"></a>
+                </li>
+                <li>
+                    <a href="#"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</html>
